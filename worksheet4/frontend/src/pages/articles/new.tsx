@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import formStyles from "../../styles/Form.module.scss";
+
 const NewDiscussion = () => {
     const [title, setTitle] = useState("");
     const [authors, setAuthors] = useState<string[]>([]);
